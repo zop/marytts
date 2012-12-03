@@ -48,7 +48,7 @@ public class EnvironmentTest {
     @Test
     public void testJavaVersion() {
         String version = System.getProperty("java.version");
-        assertTrue(version.startsWith("1.5") || version.startsWith("1.6"));
+        assertTrue(version.startsWith("1.5") || version.startsWith("1.6") || version.startsWith("1.7"));
     }
 
     @Test
